@@ -75,7 +75,7 @@
                 Thread.Sleep(timeSleep);
                 Console.Clear();
             }
-            if (Console.ReadKey().Key != ConsoleKey.Escape)
+            if (Console.ReadKey().Key == ConsoleKey.Escape)
             {
                 Environment.Exit(1);
             }
